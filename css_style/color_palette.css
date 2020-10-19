@@ -1,0 +1,18 @@
+:root {
+    /* BACKGROUND COLORS */
+    --main-background-color: hsl(210, 46%, 95%);
+    --article-background-color: white;
+    --shadow-color: hsl(212, 23%, 69%);
+    --share-button-background-color: hsl(214, 17%, 51%);
+    --share-component-background-color: hsl(217, 19%, 35%);
+    --text-color: hsl(217, 19%, 35%);
+
+    /* TYPOGRAPHY STYLES */
+    --article-font-size: 13px;
+    --font-normal-weight: 500;
+    --font-bold-weight: 700;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
