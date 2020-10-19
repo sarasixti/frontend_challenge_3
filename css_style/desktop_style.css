@@ -40,6 +40,7 @@ body {
     font-size: var(--article-font-size);
     border-radius: inherit;
     padding: 45px;
+    padding-top: 35px;
     color: var(--text-color);
 }
 
@@ -58,7 +59,7 @@ body {
     flex-direction: row;
     align-content: center;
     justify-content: left;
-    padding: 15px;
+    padding: 20px;
     padding-left: 0px;
     width: 100%;
 }
@@ -78,8 +79,18 @@ body {
 }
 
 #share-icon {
-    margin-left: 160px;
-    margin-top: 10px;
-    width: 20px;
-    height: 20px;
+    margin-left: 8px;
+    margin-top: 7px;
+    width: 15px;
+    height: 13px;
+    filter: brightness(0) invert(1);
+}
+
+#share-button {
+    margin-left: 150px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--share-button-background-color);
+    border-radius: 50%;
 }
