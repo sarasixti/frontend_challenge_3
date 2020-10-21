@@ -1,7 +1,7 @@
 @import url("color_palette.css");
 
 body {
-    background-color: var(--main-background-color);
+    background-color: var(--main-background-color) !important;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -61,17 +61,20 @@ body {
     justify-content: left;
     padding: 20px;
     padding-left: 0px;
+    margin-top: 10px;
     width: 100%;
 }
 
 .author-img {
     float: left;
     width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
 .author-info {
     margin-left: 10px;
+    width: 120px;
 }
 
 .author-name {
@@ -79,18 +82,36 @@ body {
 }
 
 #share-icon {
-    margin-left: 8px;
-    margin-top: 7px;
-    width: 15px;
-    height: 13px;
     filter: brightness(0) invert(1);
 }
 
 #share-button {
-    margin-left: 150px;
-    margin-top: 5px;
-    width: 30px;
-    height: 30px;
     background-color: var(--share-button-background-color);
     border-radius: 50%;
+    border-color: var(--share-button-background-color);
+    margin-left: 130px;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    padding-top: 0px;
+    padding-left: 4px;
+    outline: none;
+    box-shadow: none;
+}
+
+.popover {
+    background-color: var(--share-button-background-color) !important;
+    border-color: var(--share-button-background-color) !important;}
+.popover.top>.arrow:after {
+    border-top-color: var(--share-button-background-color) !important;
+}
+.popover-content {
+    background-color: var(--share-button-background-color) !important;
+    border-color: var(--share-button-background-color) !important;
+    color: var(--shadow-color) !important;
+    letter-spacing: 5px;
+    font-size: 13px !important;
+    font-weight: 500;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
 }
