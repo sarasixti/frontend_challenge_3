@@ -11,8 +11,11 @@
     --article-font-size: 13px;
     --font-normal-weight: 500;
     --font-bold-weight: 700;
+
+    /* FOOTER HEIGHT */
+    --footer-height: 70px;
 }
 
 body {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope', sans-serif !important;
 }
