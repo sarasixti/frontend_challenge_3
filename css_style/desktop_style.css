@@ -125,4 +125,16 @@ body {
     .mobile-component {
         display: none;
     }
+
+    .share-text {
+        display: none;
+    }
+
+    #share-component-mobile {
+        display: none;
+    }
+
+    #share-button-open {
+        display: none;
+    }
 }
