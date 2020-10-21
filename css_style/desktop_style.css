@@ -100,14 +100,17 @@ body {
 }
 
 .popover {
-    background-color: var(--share-button-background-color) !important;
-    border-color: var(--share-button-background-color) !important;}
+    background-color: var(--share-component-background-color) !important;
+    border-color: var(--share-component-background-color) !important;
+    
+}
+
 .popover.top>.arrow:after {
-    border-top-color: var(--share-button-background-color) !important;
+    border-top-color: var(--share-component-background-color) !important;
 }
 .popover-content {
-    background-color: var(--share-button-background-color) !important;
-    border-color: var(--share-button-background-color) !important;
+    background-color: var(--share-component-background-color) !important;
+    border-color: var(--share-component-background-color) !important;
     color: var(--shadow-color) !important;
     letter-spacing: 5px;
     font-size: 13px !important;
